@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MAIN" />
+        <module name="PLOTSQUARED_6" />
         <module name="PLOTSQUARED_5" />
         <module name="PLOTSQUARED_4" />
         <module name="WORLDGUARD_7" />

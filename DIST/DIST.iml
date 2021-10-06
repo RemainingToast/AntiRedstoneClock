@@ -14,6 +14,7 @@
     <orderEntry type="module" module-name="WORLDGUARD_7" />
     <orderEntry type="module" module-name="PLOTSQUARED_4" />
     <orderEntry type="module" module-name="PLOTSQUARED_5" />
+    <orderEntry type="module" module-name="PLOTSQUARED_6" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.spigotmc:spigot-api:1.15.2-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.guava:guava:21.0" level="project" />

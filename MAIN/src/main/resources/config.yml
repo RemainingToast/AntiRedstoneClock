@@ -1,6 +1,6 @@
 #En: Don't touch this value
 #Fr: Ne pas modifier cette valeur 
-version: 0.8
+version: 0.9
 #En:Enable metrics (true/false)
 #Fr: Activer metrics (true/false)
 metrics: true
@@ -60,6 +60,8 @@ checkTPS:
   minimumTPS: -1
   maximumTPS: -1
   intervalInSecond: 15
+
+disableRedstoneClockCheckAbove: 255
 
 Msg:
   default:
