@@ -11,20 +11,25 @@
 
     <artifactId>PLOTSQUARED_6</artifactId>
 
-	<repositories>
+    <!-- WorldEdit -->
+    <repositories>
         <repository>
-          <id>intellectualsites releases</id>
-          <url>https://mvn.intellectualsites.com/content/repositories/releases/</url>
+            <id>intellectualsites releases</id>
+            <url>https://mvn.intellectualsites.com/content/repositories/releases/</url>
         </repository>
         <repository>
-          <id>intellectualsites snapshots</id>
-          <url>https://mvn.intellectualsites.com/content/repositories/snapshots/</url>
+            <id>intellectualsites snapshots</id>
+            <url>https://mvn.intellectualsites.com/content/repositories/snapshots/</url>
         </repository>
         <repository>
-          <id>OSS Sonatype</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <id>enginehub</id>
+            <url>https://maven.enginehub.org/repo/</url>
         </repository>
-	</repositories>
+        <repository>
+            <id>OSS Sonatype</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
@@ -62,6 +67,20 @@
             <artifactId>MAIN</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.plotsquared</groupId>
+            <artifactId>PlotSquared-Core</artifactId>
+            <version>6.1.2</version>
+            <scope>provided</scope>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.plotsquared</groupId>
+            <artifactId>PlotSquared-Bukkit</artifactId>
+            <version>6.1.2</version>
+            <scope>provided</scope>
+            <type>pom</type>
         </dependency>
     </dependencies>
 </project>
